@@ -378,3 +378,10 @@ function start() {
     );
   } // Fim da funçao gameOver();
 } // Fim da funçao start()
+
+//Reinicia o Jogo
+function reiniciaJogo() {
+  somGameover.pause();
+  $("#fim").remove();
+  start();
+} //Fim da funçao reiniciaJogo
